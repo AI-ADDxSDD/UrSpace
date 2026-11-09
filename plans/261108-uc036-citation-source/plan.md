@@ -36,7 +36,7 @@ Kế hoạch này hiện thực hóa **UC-03.6 (Đối chiếu Nội dung với 
 
 - **Tài liệu đặc tả liên quan**:
   - Báo cáo brainstorm: `plans/reports/2026-11-08-uc-03.6-citation-source-brainstorm.md`
-  - SRS: `ref/Report3_Software_Requirement_Specification.md` (UC-03.6, BR-12, S-05)
+  - SRS: [Report 3 SRS](../../ref/Report3_Software_Requirement_Specification.md) (d?ng b? [requirements.md](../../ref/requirements.md)) (UC-03.6, BR-12, S-05)
 - **Upstream Plans phụ thuộc**:
   - `plans/261108-uc031-upload-file`: Lưu trữ file và mã hóa SHA-256.
   - `plans/261108-uc033-concept-nodes`: Lưu trữ `source_page` của các Khái niệm.

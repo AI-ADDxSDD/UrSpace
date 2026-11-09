@@ -37,7 +37,7 @@ Kế hoạch này hiện thực hóa **UC-03.5 (Duyệt & Chọn lọc Thẻ Fla
 
 - **Tài liệu đặc tả liên quan**:
   - Báo cáo brainstorm: `plans/reports/2026-11-08-uc-03.5-flashcards-curation-brainstorm.md`
-  - SRS: `ref/Report3_Software_Requirement_Specification.md` (UC-03.5, S-06)
+  - SRS: [Report 3 SRS](../../ref/Report3_Software_Requirement_Specification.md) (d?ng b? [requirements.md](../../ref/requirements.md)) (UC-03.5, S-06)
 - **Upstream Plans phụ thuộc**:
   - `plans/261108-uc034-dag-tarjan`: Cung cấp cấu trúc đồ thị tri thức DAG đã được khử chu trình.
 - **Downstream Plans**:

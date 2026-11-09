@@ -31,7 +31,7 @@ Hệ thống cung cấp endpoint Server-Sent Events (`GET /api/v1/documents/{id}
 
 - **Tài liệu đặc tả liên quan**:
   - Báo cáo brainstorm: `plans/reports/2026-11-08-uc-03.2-sse-progress-brainstorm.md`
-  - SRS: `ref/Report3_Software_Requirement_Specification.md` (UC-03.2, S-06)
+  - SRS: [Report 3 SRS](../../ref/Report3_Software_Requirement_Specification.md) (d?ng b? [requirements.md](../../ref/requirements.md)) (UC-03.2, S-06)
 - **Upstream Plan phụ thuộc**:
   - `plans/261108-uc031-upload-file`: Cung cấp `document_id` và Hangfire Worker kích hoạt tiến trình.
 - **Downstream Plans**:

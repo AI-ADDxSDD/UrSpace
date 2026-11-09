@@ -36,7 +36,7 @@ Tính năng này hoàn thiện mảnh ghép cá nhân hóa nhận thức sau khi
 
 - **Tài liệu đặc tả liên quan**:
   - Báo cáo brainstorm: `plans/reports/2026-11-08-uc-06.4-save-mnemonic-brainstorm.md`
-  - SRS: `ref/Report3_Software_Requirement_Specification.md` (UC-06.4, UC-06.3, S-05, S-07)
+  - SRS: [Report 3 SRS](../../ref/Report3_Software_Requirement_Specification.md) (d?ng b? [requirements.md](../../ref/requirements.md)) (UC-06.4, UC-06.3, S-05, S-07)
 - **Upstream Plans phụ thuộc**:
   - `plans/261108-uc035-flashcards-curation`: Cung cấp cấu trúc bảng `user_card_states` và `flashcards`.
   - `plans/261108-uc063-mnemonic-generator`: Cung cấp 3 dạng mẹo nhớ nhận thức (Visual, Rhyme, Analogy).

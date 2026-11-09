@@ -10,7 +10,7 @@ dependencies: [1, 2]
 
 ## Overview
 
-Đặc tả kế hoạch tích hợp giữa Frontend React/TypeScript và Backend C# ASP.NET Core Web API cùng hệ quản trị cơ sở dữ liệu Microsoft SQL Server cho **Kết quả và Tổng kết Phiên học (Study Session Results)**.
+Đặc tả kế hoạch tích hợp giữa Frontend React/TypeScript và Backend C# ASP.NET Core Web API cùng hệ quản trị cơ sở dữ liệu PostgreSQL 16 (chuẩn hóa toàn dự án) cho **Kết quả và Tổng kết Phiên học (Study Session Results)**.
 
 Hiện tại, Frontend đã triển khai hoàn thiện tầng **Mock API Client** độc lập trong thư mục `api/`, cho phép người dùng trải nghiệm đầy đủ chức năng với dữ liệu giả lập thực tế, độ trễ mạng nhân tạo và xử lý lỗi ngẫu nhiên.
 
@@ -25,7 +25,7 @@ Hiện tại, Frontend đã triển khai hoàn thiện tầng **Mock API Client*
 1. **Controller API:** Xây dựng ASP.NET Core Controller tương ứng với các route RESTful được định nghĩa trong Phase 1.
 2. **DTO & Model Validation:** Triển khai các Data Transfer Objects với FluentValidation hoặc DataAnnotations tương ứng với bảng đặc tả trường dữ liệu.
 3. **Xác thực & Ủy quyền:** Xác thực JWT token, lấy User ID từ ClaimsPrincipal và kiểm tra quyền sở hữu tài nguyên (owner authorization).
-4. **Cơ sở dữ liệu:** Tạo bảng và Migration trong SQL Server với khóa chính UUID (`uniqueidentifier`), khóa ngoại và chỉ mục (indexes) tối ưu hóa truy vấn.
+4. **Cơ sở dữ liệu:** Tạo bảng và Migration trong PostgreSQL 16 với khóa chính UUID (`UUID`), khóa ngoại và chỉ mục (indexes) tối ưu hóa truy vấn.
 
 ## Architecture / Interfaces
 
@@ -58,19 +58,19 @@ public class UC059Controller : ControllerBase
 }
 ```
 
-### Đề xuất Lược đồ Cơ sở Dữ liệu Microsoft SQL Server
+### Đề xuất Lược đồ Cơ sở Dữ liệu PostgreSQL 16
 
 ```sql
 -- Bảng lưu trữ liên quan đến UC-05.9
 CREATE TABLE dbo.UC059_Records (
-    Id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT NEWID(),
+    Id UNIQUEIDENTIFIER PRIMARY KEY DEFAULT gen_random_uuid(),
     UserId UNIQUEIDENTIFIER NOT NULL,
     CreatedAt DATETIMEOFFSET NOT NULL DEFAULT SYSDATETIMEOFFSET(),
     UpdatedAt DATETIMEOFFSET NOT NULL DEFAULT SYSDATETIMEOFFSET(),
     IsActive BIT NOT NULL DEFAULT 1,
     -- Các trường nghiệp vụ chi tiết
-    DataPayload NVARCHAR(MAX) NULL,
-    Status NVARCHAR(50) NOT NULL DEFAULT 'Active',
+    DataPayload VARCHAR(MAX) NULL,
+    Status VARCHAR(50) NOT NULL DEFAULT 'Active',
     
     CONSTRAINT FK_UC059_Users FOREIGN KEY (UserId) REFERENCES dbo.AspNetUsers(Id)
 );
@@ -99,7 +99,7 @@ Các file mã nguồn thực tế tại nhánh `QuiVT` liên quan trực tiếp 
 
 - [x] Mock API hoạt động độc lập và ổn định 100%, không phụ thuộc backend.
 - [x] DTO phía Frontend tương thích hoàn toàn với kiến trúc C# ASP.NET Core.
-- [x] Có đề xuất lược đồ SQL Server rõ ràng, có khóa ngoại và chỉ mục tìm kiếm.
+- [x] Có đề xuất lược đồ PostgreSQL 16 rõ ràng, có khóa ngoại và chỉ mục tìm kiếm.
 - [x] Kế hoạch chuyển đổi từ Mock sang Real API rõ ràng, chỉ cần đổi cấu hình mà không phải sửa logic component.
 
 ## Risk Assessment

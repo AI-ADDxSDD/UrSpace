@@ -39,7 +39,7 @@ Hệ thống thiết lập mạng lưới quan hệ nhân quả (`PREREQUISITE_O
 
 - **Tài liệu đặc tả liên quan**:
   - Báo cáo brainstorm: `plans/reports/2026-11-08-uc-03.4-dag-tarjan-brainstorm.md`
-  - SRS: `ref/Report3_Software_Requirement_Specification.md` (UC-03.4, S-06, NF-03)
+  - SRS: [Report 3 SRS](../../ref/Report3_Software_Requirement_Specification.md) (d?ng b? [requirements.md](../../ref/requirements.md)) (UC-03.4, S-06, NF-03)
 - **Upstream Plans phụ thuộc**:
   - `plans/261108-uc033-concept-nodes`: Cung cấp danh sách `ConceptNodes` làm các đỉnh của đồ thị.
 - **Downstream Plans**:

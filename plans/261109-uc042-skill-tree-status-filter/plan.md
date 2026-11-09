@@ -40,7 +40,7 @@ Phase 2 dùng mock contract để làm độc lập. Dependency phase 1→2→3�
 
 ## Dependencies & Downstream Touchpoints
 
-Tài liệu: [SRS gốc](../../../Report3_Software_Requirement_Specification.docx), bộ [UC021](../261109-uc021-create-deck/plan.md), các nguồn trực tiếp trong brainstorm và C01–C12. Repository chưa có host/API/framework thực; React+TypeScript chỉ là đề xuất từ021, reuse host khi có. Không dựng Spec Kit/knowledge graph rỗng.
+Tài liệu: [SRS gốc](../../ref/Report3_Software_Requirement_Specification.docx), bộ [UC021](../261109-uc021-create-deck/plan.md), các nguồn trực tiếp trong brainstorm và C01–C12. Repository chưa có host/API/framework thực; React+TypeScript chỉ là đề xuất từ021, reuse host khi có. Không dựng Spec Kit/knowledge graph rỗng.
 
 blockedBy=[] vì mock cho phép bắt đầu FE; tích hợp thật bị chặn nếu các bàn giao sau chưa có:
 - Không new API; Backend graph 041 phải trả display_status đúngC 09.

@@ -38,7 +38,7 @@ Hệ thống cung cấp giao diện và bộ API quản lý hạt nhân tri th�
 
 - **Tài liệu đặc tả liên quan**:
   - Báo cáo brainstorm: `plans/reports/2026-11-08-uc-03.3-concept-nodes-brainstorm.md`
-  - SRS: `ref/Report3_Software_Requirement_Specification.md` (UC-03.3, S-06)
+  - SRS: [Report 3 SRS](../../ref/Report3_Software_Requirement_Specification.md) (d?ng b? [requirements.md](../../ref/requirements.md)) (UC-03.3, S-06)
 - **Upstream Plans phụ thuộc**:
   - `plans/261108-uc031-upload-file`: Cung cấp `document_id`, `deck_id` và Hangfire Worker.
   - `plans/261108-uc032-sse-progress`: Thông báo `event: complete` báo hiệu tài liệu đã sẵn sàng để duyệt.

@@ -4,7 +4,7 @@
 
 Ngày 2026-11-09, người dùng xác định danh sách gồm UC-02.1–02.6 và UC-04.1–04.3. UC-02.1 đã có bộ 4 phase; nhiệm vụ này lập kế hoạch cho **8 UC còn lại**, chưa viết mã ứng dụng. UC-02.7/02.8/04.4 không có bộ plan mới. Tất cả status triển khai vẫn pending. Người dùng đã xác định phạm vi và số phase, chưa xác nhận các giả định thiết kế dưới đây.
 
-Repository chỉ có tài liệu, không source/scaffold/API/serializer/test runner. Branch MaiNN. Không tìm thấy AGENTS.md áp dụng, .specify hoặc knowledge graph; không khởi tạo thêm. Các đường dẫn src/SmartLearn.* trong plan cũ là dự kiến. SRS thật là [DOCX gốc](../../../Report3_Software_Requirement_Specification.docx); bản ref/Report3_Software_Requirement_Specification.md không tồn tại. Đã đọc skill Ponytail full; Documents dùng để đọc SRS OOXML, không tạo/sửa DOCX. Không cài package, migration, app test, commit/push hoặc sửa plan cũ, kể cả UC-02.1.
+Repository chỉ có tài liệu, không source/scaffold/API/serializer/test runner. Branch MaiNN. Không tìm thấy AGENTS.md áp dụng, .specify hoặc knowledge graph; không khởi tạo thêm. Các đường dẫn src/SmartLearn.* trong plan cũ là dự kiến. SRS thật là [DOCX gốc](../../ref/Report3_Software_Requirement_Specification.docx); bản [SRS Markdown](../../ref/Report3_Software_Requirement_Specification.md) đã được chuẩn hóa và đồng bộ trong ref/. Đã đọc skill Ponytail full; Documents dùng để đọc SRS OOXML, không tạo/sửa DOCX. Không cài package, migration, app test, commit/push hoặc sửa plan cũ, kể cả UC-02.1.
 
 ## Bảng đối chiếu trước thiết kế
 

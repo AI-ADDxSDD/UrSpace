@@ -23,6 +23,9 @@ Mọi định nghĩa endpoint đều tuân thủ chuẩn RESTful, sử dụng m�
 | R04 | Cụm 4 nút đánh giá Again, Hard, Good, Easy với màu sắc phân biệt và phím tắt 1-4 | SRS UC-05.2 | AC07, AC08 |
 | R05 | Thanh tiến độ phiên học hiển thị số thẻ đã học / tổng số thẻ và tỷ lệ % | UX Requirement | AC09, AC10 |
 | R06 | Ghi nhận thời gian làm bài, chuyển thẻ tự động và điều hướng sang UC-05.9 khi kết thúc | SRS UC-05.2 + UC-05.9 | AC11, AC12, AC13, AC14, AC15, AC16 |
+| R07 | Hiển thị khối Mẹo nhớ (Mnemonic Block) ở mặt sau thẻ nếu thẻ có pinned_mnemonic | UC-06.4 Integration | AC17 |
+| R08 | Hỗ trợ nút Hoàn tác (Undo Rating) gọi API hoàn tác lượt chấm gần nhất | UC-05.4 Integration | AC18 |
+| R09 | Hỗ trợ menu Tạm hoãn thẻ (Suspend Card) khỏi phiên học hiện tại | UC-05.5 Integration | AC19 |
 
 ### Field Specification
 

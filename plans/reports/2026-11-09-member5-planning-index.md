@@ -11,7 +11,7 @@
 ### Hiện trạng thực tế tại Repository:
 1. **Frontend Mock:** Đã triển khai hoàn chỉnh 10/10 Use Case với React + TypeScript + Vite, bộ CSS Design System EdTech SaaS Dashboard chuẩn mực, không dùng CSS zoom/scale hack, vượt qua `build` và `eslint` với 0 lỗi.
 2. **Unit Tests:** Toàn bộ **49 unit tests** trong `frontend/tests/*.test.mjs` đạt kết quả **100% PASS** (kiểm tra đầy đủ logic thuật toán, định dạng dữ liệu, xử lý biên và dữ liệu rỗng).
-3. **Backend Integration:** Đang ở trạng thái **Pending Backend Integration** (chờ các endpoint ASP.NET Core Web API và CSDL SQL Server từ các thành viên phụ trách Backend).
+3. **Backend Integration:** Đang ở trạng thái **Pending Backend Integration** (chờ các endpoint ASP.NET Core Web API và CSDL PostgreSQL 16 từ các thành viên phụ trách Backend).
 4. **End-to-End Testing & Browser QA:** Đang ở trạng thái **Pending E2E Testing** (cần cấu hình Playwright/Cypress khi có môi trường staging).
 
 ---
@@ -41,7 +41,7 @@ Tất cả 10 kế hoạch của TV5 đều tuân thủ cấu trúc 5 file Markd
 1. `plan.md`: Tổng quan kế hoạch, hợp đồng Use Case (Actor, Preconditions, Flows, Postconditions), bảng Phase và các quyết định thiết kế chốt (Decisions).
 2. `phase-01-requirements-and-contract.md`: Truy vết yêu cầu (Requirements R01–R06), bảng đặc tả trường (Fields), Hợp đồng API (Endpoints đề xuất, mẫu JSON, RFC 7807 Error Envelope).
 3. `phase-02-interface-and-state.md`: Thiết kế giao diện UI/UX, Component Tree, Bảng trạng thái (State Machine), Xử lý bàn phím (Keyboard shortcuts), Khả năng tiếp cận WCAG AA và Responsive Breakpoints.
-4. `phase-03-backend-integration.md`: Tích hợp Backend ASP.NET Core Web API, Mock client hiện tại, Bàn giao với các thành viên khác, Đề xuất lược đồ cơ sở dữ liệu SQL Server.
+4. `phase-03-backend-integration.md`: Tích hợp Backend ASP.NET Core Web API, Mock client hiện tại, Bàn giao với các thành viên khác, Đề xuất lược đồ cơ sở dữ liệu PostgreSQL 16.
 5. `phase-04-testing-and-verification.md`: 16 kịch bản kiểm thử chi tiết dạng Given/When/Then, Danh mục unit tests đã chạy thực tế, Tiêu chí nghiệm thu (Acceptance Criteria).
 
 ---

@@ -40,7 +40,7 @@ Hệ thống giải quyết triệt để "Hội chứng Khủng hoảng Nợ Th
 
 - **Tài liệu đặc tả liên quan**:
   - Báo cáo brainstorm: `plans/reports/2026-11-08-uc-05.10-study-reminder-brainstorm.md`
-  - SRS: `ref/Report3_Software_Requirement_Specification.md` (UC-05.10, NF-05, UC-01.5, UC-07.1)
+  - SRS: [Report 3 SRS](../../ref/Report3_Software_Requirement_Specification.md) (d?ng b? [requirements.md](../../ref/requirements.md)) (UC-05.10, NF-05, UC-01.5, UC-07.1)
 - **Upstream Plans phụ thuộc**:
   - `plans/261108-uc031-upload-file`: Cụm hạ tầng Hangfire và Redis.
   - `plans/261108-uc035-flashcards-curation`: Bảng `user_card_states` với chỉ mục `idx_user_card_states_due`.

@@ -46,13 +46,13 @@ Xác thực principal, validate request, trả typed response; kết nối event
 
 ## Proposed Code Location (subject to actual repository layout)
 
-- `src/UrSpace.Application/Learning/FsrsRating/` — domain service, policies, request/response DTOs.
-- `src/UrSpace.Api/Controllers/LearningController.cs` — HTTP facade/validation.
-- `src/UrSpace.Infrastructure/Persistence/` — EF repository, mapping, approved migrations.
-- `tests/UrSpace.UnitTests/Learning/` — deterministic unit cases.
-- `tests/UrSpace.IntegrationTests/Learning/` — PostgreSQL integration and authentication tests.
+- `src/SmartLearn.Application/Learning/FsrsRating/` — domain service, policies, request/response DTOs.
+- `src/SmartLearn.Api/Controllers/LearningController.cs` — HTTP facade/validation.
+- `src/SmartLearn.Infrastructure/Persistence/` — EF repository, mapping, approved migrations.
+- `tests/SmartLearn.UnitTests/Learning/` — deterministic unit cases.
+- `tests/SmartLearn.IntegrationTests/Learning/` — PostgreSQL integration and authentication tests.
 
-Các đường dẫn `src/UrSpace.*` chỉ là **đề xuất**, không khẳng định repository đã có cấu trúc đó. Cần map với cấu trúc thật do nhóm khởi tạo.
+Các đường dẫn `src/SmartLearn.*` chỉ là **đề xuất**, không khẳng định repository đã có cấu trúc đó. Cần map với cấu trúc thật do nhóm khởi tạo.
 
 ## Implementation Steps
 

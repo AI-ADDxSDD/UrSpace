@@ -32,7 +32,7 @@ Hệ thống cung cấp endpoint tiếp nhận tài liệu PDF/PPTX ($\le 25\tex
 
 - **Tài liệu đặc tả liên quan**:
   - Báo cáo brainstorm: `plans/reports/2026-11-08-uc-03.1-upload-file-brainstorm.md`
-  - SRS: `ref/Report3_Software_Requirement_Specification.md` (UC-03.1, S-06, NF-01, UC-07.5)
+  - SRS: [Report 3 SRS](../../ref/Report3_Software_Requirement_Specification.md) (d?ng b? [requirements.md](../../ref/requirements.md)) (UC-03.1, S-06, NF-01, UC-07.5)
 - **Downstream Phases phụ thuộc vào output của UC-03.1**:
   - `UC-03.2`: Server-Sent Events (SSE) theo dõi % tiến độ bóc tách job từ Hangfire.
   - `UC-03.3` & `UC-03.5`: Hangfire Worker đọc file từ `file_path` để đưa vào Gemini RAG bóc tách Concepts và Flashcards, lưu bản gốc vào `raw_ai_payload`.

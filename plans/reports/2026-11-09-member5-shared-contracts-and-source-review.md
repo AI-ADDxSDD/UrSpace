@@ -63,4 +63,4 @@
 
 ### C10: Trạng thái Nghiệm thu Tài liệu
 - Kế hoạch 10 Use Case này được thiết lập dựa trên mã nguồn Frontend hiện hữu và các tiêu chuẩn kiểm thử đã vượt qua 100%.
-- Các phần liên quan đến Backend Controller, SQL Server Migration, và Playwright E2E Test được ghi nhận đầy đủ trong phần "Remaining Work / Pending Integration" sẵn sàng cho giai đoạn phát triển tiếp theo.
+- Các phần liên quan đến Backend Controller, PostgreSQL 16 Migration (Npgsql EF Core), và Playwright E2E Test được ghi nhận đầy đủ trong phần "Remaining Work / Pending Integration" sẵn sàng cho giai đoạn phát triển tiếp theo.
